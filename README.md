@@ -91,8 +91,8 @@ jupyter notebook Task.ipynb
 
 <h3 align="center">
 
-⭐ If you found this project helpful, consider giving it a Star!
 
-Made with ❤️ by <b>Abhinav Verma</b>
+
+Made  by <b>Abhinav Verma</b>
 
 </h3>
