@@ -108,6 +108,6 @@ jupyter notebook Task.ipynb
 
 ⭐ If you found this project helpful, consider giving it a Star ⭐
 
-Made with ❤️ by **Abhinav Verma**
+Made by **Abhinav Verma**
 
 </h3>
