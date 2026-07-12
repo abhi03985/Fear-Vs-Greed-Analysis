@@ -1,7 +1,7 @@
 <h1 align="center">📈 Trader Performance vs Market Sentiment Analysis</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=850&lines=Trader+Performance+vs+Market+Sentiment;Fear+%26+Greed+Index+Analysis;Python+%7C+Pandas+%7C+NumPy+%7C+Seaborn;Data+Analytics+Project" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=850&lines=Trader+Performance+vs+Market+Sentiment;Fear+%26+Greed+Index+Analysis;Python+%7C+Pandas+%7C+NumPy+%7C+Matplotlib;Data+Analytics+Project" />
 </p>
 
 <p align="center">
@@ -16,76 +16,61 @@
 
 ---
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project analyzes how **market sentiment (Fear & Greed Index)** impacts **crypto trader performance** by combining historical trading data with daily sentiment records. The analysis explores profitability, trading activity, win rate, and behavioral trends using Python-based data analytics.
-
----
-
-## 📂 Dataset
-
-- 📄 Historical Trading Data
-- 📄 Fear & Greed Index
-- 🔗 Merged using **Date**
+This project investigates the relationship between the **Fear & Greed Index** and **crypto trader performance** by merging historical trading records with daily market sentiment. Using Python-based Exploratory Data Analysis (EDA), it uncovers how trader profitability, trade frequency, and trading behavior change under different market conditions.
 
 ---
 
-## ⚙️ Methodology
+## 📊 Analysis Performed
 
-✔ Data Cleaning  
-✔ Timestamp Conversion  
+✔ Data Cleaning & Preprocessing  
+✔ Timestamp Conversion & Date Alignment  
 ✔ Dataset Merging  
 ✔ Feature Engineering  
 ✔ Exploratory Data Analysis (EDA)  
-✔ Statistical Analysis  
-✔ Data Visualization  
-✔ Insight Generation
+✔ Sentiment-wise Performance Analysis  
+✔ Correlation Analysis  
+✔ Business Insight Generation
 
 ---
 
-## 📊 Key Analysis
+## 📈 Visualizations
 
-- 💰 Average Closed PnL
-- 📈 Win Rate Analysis
-- 📦 Trade Size Analysis
-- 🔄 Trade Frequency
-- 📊 Sentiment-wise Comparison
+- 📊 Trader Performance vs Market Sentiment
+- 📈 Fear vs Greed Analysis
 - 🔥 Correlation Heatmap
-- 🏆 Consistent Winner Segmentation
+- 🔄 Trade Frequency Analysis
 
 ---
 
 ## 💡 Key Insights
 
-- 📈 Traders generally performed better during **Greed** market conditions.
-- ⚠️ Profit variability increased during Greed periods, indicating higher risk.
-- 🔄 Trading activity changed across different sentiment categories.
-- 🏆 Traders with **positive average PnL** and **win rates above 60%** were identified as **Consistent Winners**.
-- 💵 Trade size varied across market conditions, reflecting changing trader behavior.
+- Traders generally achieved **higher average Closed PnL during Greed periods**.
+- Trading activity varied significantly across market sentiment categories.
+- Higher profits during Greed were accompanied by **greater volatility**, indicating increased risk-taking.
+- Correlation analysis highlighted relationships between trading metrics and profitability.
+- Consistent profitable traders maintained stronger win rates across different market conditions.
 
 ---
 
 ## 🛠 Tech Stack
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
-</p>
-
-**Libraries:** Pandas • NumPy • Matplotlib • Seaborn
+**Python • Pandas • NumPy • Matplotlib • Seaborn • Jupyter Notebook • Git • GitHub**
 
 ---
 
-## 📁 Repository
+## 📂 Repository Structure
 
 ```text
 📦 Trader-Performance-vs-Market-Sentiment
-├── 📂 data
-│   ├── historical_data.csv
-│   └── fear_greed_index.csv
-├── 📓 Task.ipynb
-├── 🖼️ images
 ├── 📄 README.md
-└── 📄 requirements.txt
+├── 📓 Task.ipynb
+├── 📊 Fear Vs Greed.png
+├── 📊 HeatMap Chart.png
+├── 📊 Trade Frequency.png
+├── 📊 Trader_Performance_vs_Market_Sentiment.png
+└── 📊 Trader_Performance_vs_Market_Sentiment_....png
 ```
 
 ---
@@ -97,7 +82,7 @@ git clone https://github.com/abhi03985/Trader-Performance-vs-Market-Sentiment.gi
 
 cd Trader-Performance-vs-Market-Sentiment
 
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn
 
 jupyter notebook Task.ipynb
 ```
@@ -106,8 +91,8 @@ jupyter notebook Task.ipynb
 
 <h3 align="center">
 
-⭐ If you found this project helpful, consider giving it a Star ⭐
+⭐ If you found this project helpful, consider giving it a Star!
 
-Made by **Abhinav Verma**
+Made with ❤️ by <b>Abhinav Verma</b>
 
 </h3>
